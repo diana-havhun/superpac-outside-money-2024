@@ -8,13 +8,6 @@ An analysis of whether independent expenditures by Super PACs are associated wit
 
 In 2024, Super PAC money flowed overwhelmingly toward close races and candidates who were already strong — not toward long shots. Candidates with Super PAC backing won **55%** of competitive races versus **41%** without it. But once incumbency and party are taken into account, outside money becomes a *secondary* predictor of victory, behind both. The clearest reading of the data: **Super PAC spending marks winners more than it makes them.**
 
-## What's in this repo
-
-| File | What it is |
-|------|------------|
-| [`SuperPAC_Outside_Money_2024_House.ipynb`](SuperPAC_Outside_Money_2024_House.ipynb) | Full analysis notebook — data prep, 10 SQL queries, EDA, and two regression models (with code) |
-| [`SuperPAC_report.pdf`](SuperPAC_report.pdf) | Clean report version — narrative and charts, no code |
-
 ## The four questions
 
 1. **Does Super PAC spending track electoral outcomes** — vote share and win/loss?
@@ -48,7 +41,6 @@ This analysis uses four public datasets (not included here due to size — downl
 - **FEC — Committee Master** (`cm.txt`, from `cm24.zip`) — used to identify Super PACs (committee type "O")
   https://www.fec.gov/files/bulk-downloads/2024/cm24.zip
 
-FEC bulk-data hub: https://www.fec.gov/data/browse-data/?tab=bulk-data
 FEC file layouts/column definitions: https://www.fec.gov/campaign-finance-data/
 
 ## Tools
