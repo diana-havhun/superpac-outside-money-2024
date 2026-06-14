@@ -15,6 +15,11 @@ In 2024, Super PAC money flowed overwhelmingly toward close races and candidates
 3. **Where does the money flow** — competitive or safe districts?
 4. **Do Democrats and Republicans deploy it differently?**
 
+## What's in this repo
+
+- [superpac_outside_money_2024.ipynb](superpac_outside_money_2024.ipynb) — full analysis with code (SQL, EDA, models)
+- [superpac_outside_money_2024_report.pdf](superpac_outside_money_2024_report.pdf) — clean report, no code
+
 ## Key findings
 
 - **Money chases close races.** Toss-up districts averaged ~7× the Super PAC spending of safe districts. Among above-average-spending districts, 56% were competitive, versus just 12% of low-spending ones.
